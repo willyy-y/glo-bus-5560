@@ -1,0 +1,283 @@
+{
+ "base": {
+  "_note": "Y7 carry-forward base case. Values read from the live projection box 2026-09-23 (read-only). avg = Y7 competitive-assumption cells. See README.",
+  "avg": {
+   "camera": {
+    "AP": {
+     "ad": 1919,
+     "chains": 0,
+     "local": 0,
+     "models": 2.8,
+     "online": 0,
+     "price": 259,
+     "support": 8.9,
+     "web": 1356
+    },
+    "EA": {
+     "ad": 2528,
+     "chains": 0,
+     "local": 0,
+     "models": 2.8,
+     "online": 0,
+     "price": 268,
+     "support": 8.4,
+     "web": 1683
+    },
+    "LA": {
+     "ad": 1583,
+     "chains": 0,
+     "local": 0,
+     "models": 2.8,
+     "online": 0,
+     "price": 256,
+     "support": 9.7,
+     "web": 961
+    },
+    "NA": {
+     "ad": 3672,
+     "chains": 0,
+     "local": 0,
+     "models": 2.8,
+     "online": 0,
+     "price": 261,
+     "support": 7.9,
+     "web": 1906
+    }
+   },
+   "drone": {
+    "AP": {
+     "ad": 1028,
+     "models": 2.1,
+     "online": 0,
+     "price": 1560,
+     "support": 216.4,
+     "web": 1150
+    },
+    "EA": {
+     "ad": 1800,
+     "models": 2.1,
+     "online": 0,
+     "price": 1485,
+     "support": 133.9,
+     "web": 1572
+    },
+    "LA": {
+     "ad": 683,
+     "models": 2.1,
+     "online": 0,
+     "price": 1497,
+     "support": 213.4,
+     "web": 750
+    },
+    "NA": {
+     "ad": 2122,
+     "models": 2.1,
+     "online": 0,
+     "price": 1530,
+     "support": 141.7,
+     "web": 2022
+    }
+   }
+  },
+  "engine": {
+   "cal": {
+    "camera": 1.0,
+    "drone": 1.0
+   },
+   "scales": {}
+  },
+  "fixed": 0,
+  "image": 85,
+  "own": {
+   "camera": {
+    "AP": {
+     "ad": 2500,
+     "chains": 0,
+     "local": 0,
+     "models": 2,
+     "online": 0,
+     "pq": 47,
+     "price": 235,
+     "prom_disc": 10,
+     "prom_weeks": 1,
+     "support": 6.51,
+     "warranty_days": 180,
+     "web": 1050,
+     "support_budget": 2170
+    },
+    "EA": {
+     "ad": 3400,
+     "chains": 0,
+     "local": 0,
+     "models": 2,
+     "online": 0,
+     "pq": 47,
+     "price": 248,
+     "prom_disc": 10,
+     "prom_weeks": 1,
+     "support": 6.63,
+     "warranty_days": 180,
+     "web": 1400,
+     "support_budget": 2380
+    },
+    "LA": {
+     "ad": 1800,
+     "chains": 0,
+     "local": 0,
+     "models": 2,
+     "online": 0,
+     "pq": 47,
+     "price": 235,
+     "prom_disc": 10,
+     "prom_weeks": 1,
+     "support": 7.34,
+     "warranty_days": 180,
+     "web": 700,
+     "support_budget": 1600
+    },
+    "NA": {
+     "ad": 6000,
+     "chains": 0,
+     "local": 0,
+     "models": 2,
+     "online": 0,
+     "pq": 47,
+     "price": 243,
+     "prom_disc": 10,
+     "prom_weeks": 1,
+     "support": 6.56,
+     "warranty_days": 180,
+     "web": 1700,
+     "support_budget": 2915
+    }
+   },
+   "drone": {
+    "AP": {
+     "ad": 700,
+     "models": 2,
+     "online": 0,
+     "pq": 41,
+     "price": 1145,
+     "support": 86.08,
+     "uav_disc": 10,
+     "warranty_days": 180,
+     "web": 1000,
+     "support_budget": 680,
+     "third_party_share": 0.18080357142857142
+    },
+    "EA": {
+     "ad": 1400,
+     "models": 2,
+     "online": 0,
+     "pq": 41,
+     "price": 1190,
+     "support": 85.25,
+     "uav_disc": 10,
+     "warranty_days": 180,
+     "web": 1400,
+     "support_budget": 1040,
+     "third_party_share": 0.18573551263001487
+    },
+    "LA": {
+     "ad": 400,
+     "models": 2,
+     "online": 0,
+     "pq": 41,
+     "price": 1145,
+     "support": 83.0,
+     "uav_disc": 10,
+     "warranty_days": 180,
+     "web": 700,
+     "support_budget": 415,
+     "third_party_share": 0.17957746478873238
+    },
+    "NA": {
+     "ad": 1700,
+     "models": 2,
+     "online": 0,
+     "pq": 41,
+     "price": 1190,
+     "support": 85.71,
+     "uav_disc": 10,
+     "warranty_days": 180,
+     "web": 1700,
+     "support_budget": 1260,
+     "third_party_share": 0.18463444857496902
+    }
+   }
+  },
+  "production": {
+   "camera": 1355000,
+   "drone": 99999999
+  },
+  "shares": 19.8,
+  "tax_rate": 0.3,
+  "unit_cost": {
+   "camera": 165.0,
+   "drone": 780.0
+  },
+  "unit_scale": 1.0
+ },
+ "groups": {
+  "camera": [
+   "pq",
+   "war",
+   "rest"
+  ],
+  "drone": [
+   "pq",
+   "rest"
+  ]
+ },
+ "runs": [
+  {
+   "product": "camera",
+   "changes": {},
+   "units": 1372900
+  },
+  {
+   "product": "camera",
+   "changes": {
+    "camera.NA.pq": 46,
+    "camera.EA.pq": 46,
+    "camera.AP.pq": 46,
+    "camera.LA.pq": 46
+   },
+   "units": 1353100
+  },
+  {
+   "product": "camera",
+   "changes": {
+    "camera.NA.pq": 45,
+    "camera.EA.pq": 45,
+    "camera.AP.pq": 45,
+    "camera.LA.pq": 45,
+    "image": 84
+   },
+   "units": 1332100
+  },
+  {
+   "product": "camera",
+   "changes": {
+    "camera.NA.warranty_days": 90
+   },
+   "units": 1346800
+  },
+  {
+   "product": "drone",
+   "changes": {},
+   "units": 221200
+  },
+  {
+   "product": "drone",
+   "changes": {
+    "drone.NA.pq": 42,
+    "drone.EA.pq": 42,
+    "drone.AP.pq": 42,
+    "drone.LA.pq": 42,
+    "image": 86
+   },
+   "units": 226900
+  }
+ ]
+}
