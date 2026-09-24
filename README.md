@@ -49,6 +49,14 @@ python3 sweep.py --scenario escalate --vary drone.NA.price 1190 1390 50
 - `engine.py` — demand model.
 - `pq.py` — P/Q rating model (design choices -> 0-100 score -> 1-10 display).
 - `pq_tables.json` — 22 P/Q lookup tables extracted from the client bundle.
+- `score.py` — scoring model: EPS, ROE, credit rating (3 VLOOKUP inputs ->
+  points -> grade, exact), image rating (share/PQ/citizenship, exact), I.E.
+  and B-I-I annual + game-to-date, weighted-average + overall score,
+  Bull's Eye and Leap Frog bonuses. Annual I.E. validated exact (116)
+  against Y6 Company E live CDJ. Stock price is server-side (unpublished
+  weights) — supplied as an input, not computed.
+- `research/scoring_report.md` — full scoring reverse-engineering report.
+- `research/scoring_tables.json` — credit/image/citizenship lookup tables.
 - `sweep.py` — CLI for test runs.
 - `pnl.py` — P&L layer.
 - `calibrate.py` — group scale solver (historical).
