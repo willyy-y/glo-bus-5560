@@ -47,6 +47,8 @@ python3 sweep.py --scenario escalate --vary drone.NA.price 1190 1390 50
 ## Files
 
 - `engine.py` — demand model.
+- `pq.py` — P/Q rating model (design choices -> 0-100 score -> 1-10 display).
+- `pq_tables.json` — 22 P/Q lookup tables extracted from the client bundle.
 - `sweep.py` — CLI for test runs.
 - `pnl.py` — P&L layer.
 - `calibrate.py` — group scale solver (historical).
@@ -54,10 +56,33 @@ python3 sweep.py --scenario escalate --vary drone.NA.price 1190 1390 50
 - `cases/y7_base.json` — backup of decisions.
 - `cases/y7_observations.json` — live experiment data.
 
+## P/Q model (`pq.py`)
+
+Computes camera and drone P/Q ratings from design choices, exactly as the
+game's Product Design page does:
+
+    camera: clamp(5,100, round(sum(9 component scores) x R&D multiplier))
+    drone:  clamp(5,100, round(sum(11 component scores) x R&D multiplier))
+
+The drone's built-in-camera score comes from (own camera P/Q - industry
+average camera P/Q), so camera upgrades also lift drone P/Q. Validated
+against all 8 live design experiments (9/9 exact, 2026-09-24).
+
+```python
+from pq import camera_pq, drone_pq, baseline_camera_design
+pq100, display = camera_pq(baseline_camera_design())  # (47, 4.7)
+```
+
+Caveat: design choices also change unit production costs, which the bundle
+computes outside the P/Q path and which are NOT modeled here. Empirical
+marginals from live tests: ~$3.01/unit per 0.1 camera P/Q,
+~$20.70/unit per 0.1 drone P/Q.
+
 ## Limitations
 
-- Design costs (sensor mm, stabilization level, etc.) are not modeled.
-  The unit_cost is fixed; P/Q changes affect demand but not cost.
+- Design unit costs (sensor mm, stabilization level, etc.) are not modeled.
+  The unit_cost is fixed; P/Q changes affect demand but not cost. See the
+  P/Q model section for empirical marginal costs from live tests.
 - Exchange rates for AP/LA revenue are approximated (4.9% high).
 - Competitive assumptions are static; rival reactions not modeled
   (use --scenario for synthetic rival behaviors).
