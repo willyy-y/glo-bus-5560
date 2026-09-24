@@ -1,0 +1,425 @@
+{
+ "_note": "Live Y7 projection-box measurements, read-only/unsaved, 2026-09-24. Units in thousands; revenue/profit in $000s. Prices are entered prices per region (NA/EA/AP/LA). Nothing saved or submitted in the game.",
+ "camera": {
+  "baseline_prices": {
+   "AP": 235,
+   "EA": 248,
+   "LA": 235,
+   "NA": 243
+  },
+  "points": [
+   {
+    "delta": 0,
+    "eps": 3.74,
+    "label": "baseline",
+    "prices": {
+     "AP": 235,
+     "EA": 248,
+     "LA": 235,
+     "NA": 243
+    },
+    "profit_k": 74108,
+    "revenue_k": 558766,
+    "unit_cost": 144.13,
+    "units": {
+     "AP": 337.7,
+     "EA": 363.8,
+     "LA": 220.9,
+     "NA": 450.5
+    }
+   },
+   {
+    "delta": 15,
+    "eps": 4.14,
+    "label": "plus15",
+    "prices": {
+     "AP": 250,
+     "EA": 263,
+     "LA": 250,
+     "NA": 258
+    },
+    "profit_k": 81932,
+    "revenue_k": 560564,
+    "unit_cost": 145.09,
+    "units": {
+     "AP": 305.3,
+     "EA": 342.2,
+     "LA": 208.9,
+     "NA": 426.2
+    }
+   },
+   {
+    "delta": 30,
+    "eps": 3.9,
+    "label": "plus30",
+    "prices": {
+     "AP": 265,
+     "EA": 278,
+     "LA": 265,
+     "NA": 273
+    },
+    "profit_k": 77156,
+    "revenue_k": 526747,
+    "unit_cost": 148.66,
+    "units": {
+     "AP": 246.2,
+     "EA": 298.9,
+     "LA": 164.3,
+     "NA": 372.7
+    }
+   }
+  ],
+  "promo": {
+   "disc_pct": 10,
+   "regions": "all",
+   "weeks": 1
+  }
+ },
+ "capacity_k": {
+  "camera": 1355,
+  "drone": 217
+ },
+ "drone": {
+  "baseline_prices": {
+   "AP": 1145,
+   "EA": 1190,
+   "LA": 1145,
+   "NA": 1190
+  },
+  "points": [
+   {
+    "delta": 0,
+    "eps": 3.74,
+    "label": "baseline",
+    "prices": {
+     "AP": 1145,
+     "EA": 1190,
+     "LA": 1145,
+     "NA": 1190
+    },
+    "profit_k": 74108,
+    "revenue_k": 558766,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 44.8,
+     "EA": 67.3,
+     "LA": 28.4,
+     "NA": 80.7
+    }
+   },
+   {
+    "delta": 60,
+    "eps": 3.99,
+    "label": "plus60",
+    "prices": {
+     "AP": 1205,
+     "EA": 1250,
+     "LA": 1205,
+     "NA": 1250
+    },
+    "profit_k": 79054,
+    "revenue_k": 556316,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 42.1,
+     "EA": 61.6,
+     "LA": 24.4,
+     "NA": 76.2
+    }
+   },
+   {
+    "delta": 120,
+    "eps": 4.17,
+    "label": "plus120",
+    "prices": {
+     "AP": 1265,
+     "EA": 1310,
+     "LA": 1265,
+     "NA": 1310
+    },
+    "profit_k": 82470,
+    "revenue_k": 551262,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 37.5,
+     "EA": 58.2,
+     "LA": 23.1,
+     "NA": 71.9
+    }
+   },
+   {
+    "delta": 180,
+    "eps": 4.19,
+    "label": "plus180",
+    "prices": {
+     "AP": 1325,
+     "EA": 1370,
+     "LA": 1325,
+     "NA": 1370
+    },
+    "profit_k": 82898,
+    "revenue_k": 538852,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 35.4,
+     "EA": 52.0,
+     "LA": 21.6,
+     "NA": 63.7
+    }
+   },
+   {
+    "delta": 240,
+    "eps": 4.32,
+    "label": "plus240",
+    "prices": {
+     "AP": 1385,
+     "EA": 1430,
+     "LA": 1385,
+     "NA": 1430
+    },
+    "profit_k": 85570,
+    "revenue_k": 535686,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 32.9,
+     "EA": 50.0,
+     "LA": 19.6,
+     "NA": 60.5
+    }
+   },
+   {
+    "delta": 300,
+    "eps": 4.38,
+    "label": "plus300",
+    "prices": {
+     "AP": 1445,
+     "EA": 1490,
+     "LA": 1445,
+     "NA": 1490
+    },
+    "profit_k": 86491,
+    "revenue_k": 528670,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 29.9,
+     "EA": 47.0,
+     "LA": 18.7,
+     "NA": 55.8
+    }
+   },
+   {
+    "delta": 360,
+    "eps": 4.43,
+    "label": "plus360",
+    "prices": {
+     "AP": 1505,
+     "EA": 1550,
+     "LA": 1505,
+     "NA": 1550
+    },
+    "profit_k": 87638,
+    "revenue_k": 523133,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 28.0,
+     "EA": 41.6,
+     "LA": 17.6,
+     "NA": 54.4
+    }
+   },
+   {
+    "delta": 420,
+    "eps": 4.37,
+    "label": "plus420",
+    "prices": {
+     "AP": 1565,
+     "EA": 1610,
+     "LA": 1565,
+     "NA": 1610
+    },
+    "profit_k": 86611,
+    "revenue_k": 513062,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 26.9,
+     "EA": 40.0,
+     "LA": 14.3,
+     "NA": 48.5
+    }
+   },
+   {
+    "delta": 480,
+    "eps": 4.38,
+    "label": "plus480",
+    "prices": {
+     "AP": 1625,
+     "EA": 1670,
+     "LA": 1625,
+     "NA": 1670
+    },
+    "profit_k": 86666,
+    "revenue_k": 506355,
+    "unit_cost": 748.7,
+    "units": {
+     "AP": 21.4,
+     "EA": 39.0,
+     "LA": 13.7,
+     "NA": 46.6
+    }
+   }
+  ],
+  "third_party": {
+   "disc_pct": 10,
+   "share": {
+    "AP": 0.18080357142857145,
+    "EA": 0.1857355126300149,
+    "LA": 0.17957746478873238,
+    "NA": 0.18463444857496905
+   }
+  }
+ },
+ "pnl": {
+  "duty_pct": 2.0,
+  "shares_m": 19.8,
+  "tax_rate": 0.3
+ },
+ "regions": [
+  "NA",
+  "EA",
+  "AP",
+  "LA"
+ ],
+ "marketing": {
+  "_note": "Single-variable cuts vs baseline (all else held). Spend in $000s. Units in thousands.",
+  "baseline_spend": {
+   "camera": {
+    "NA": {
+     "retailer_support": 2915,
+     "advertising": 6000,
+     "website": 1700
+    },
+    "EA": {
+     "retailer_support": 2380,
+     "advertising": 3400,
+     "website": 1400
+    },
+    "AP": {
+     "retailer_support": 2170,
+     "advertising": 2500,
+     "website": 1050
+    },
+    "LA": {
+     "retailer_support": 1600,
+     "advertising": 1800,
+     "website": 700
+    }
+   },
+   "drone": {
+    "NA": {
+     "search_ads": 1700,
+     "website": 1700
+    },
+    "EA": {
+     "search_ads": 1400,
+     "website": 1400
+    },
+    "AP": {
+     "search_ads": 700,
+     "website": 1000
+    },
+    "LA": {
+     "search_ads": 400,
+     "website": 700
+    }
+   }
+  },
+  "tests": [
+   {
+    "label": "cam_NA_website_1700_to_700",
+    "product": "camera",
+    "region": "NA",
+    "channel": "website",
+    "spend_from": 1700,
+    "spend_to": 700,
+    "units_NA_from": 450.5,
+    "units_NA_to": 432.3,
+    "units_total_to": 1354.7,
+    "revenue_k": 558598,
+    "profit_k": 74617,
+    "eps": 3.77
+   },
+   {
+    "label": "cam_NA_support_2915_to_1415",
+    "product": "camera",
+    "region": "NA",
+    "channel": "retailer_support",
+    "spend_from": 2915,
+    "spend_to": 1415,
+    "units_NA_delta_k": -20.1,
+    "profit_k_delta": 713
+   },
+   {
+    "label": "cam_NA_advertising_6000_to_3000",
+    "product": "camera",
+    "region": "NA",
+    "channel": "advertising",
+    "spend_from": 6000,
+    "spend_to": 3000,
+    "units_NA_delta_k": -38.4,
+    "profit_k_delta": 358
+   },
+   {
+    "label": "drone_NA_search_1700_to_700",
+    "product": "drone",
+    "region": "NA",
+    "channel": "search_ads",
+    "spend_from": 1700,
+    "spend_to": 700,
+    "units_NA_delta_k": -5.3,
+    "profit_k_delta": 363
+   },
+   {
+    "label": "cam_promo_weeks_1_to_0_all_regions",
+    "product": "camera",
+    "promo_weeks_from": 1,
+    "promo_weeks_to": 0,
+    "promo_disc_pct": 10,
+    "units_total_to": 1364.0,
+    "units_by_region_to": {
+     "NA": 447.7,
+     "EA": 361.5,
+     "AP": 335.5,
+     "LA": 219.3
+    },
+    "revenue_k": 559377,
+    "profit_k": 74540,
+    "eps": 3.76
+   },
+   {
+    "label": "drone_3p_disc_10_to_5_all_regions",
+    "product": "drone",
+    "disc_from_pct": 10,
+    "disc_to_pct": 5,
+    "units_total_to": 216.0,
+    "direct_to": 193.6,
+    "thirdparty_to": 22.4,
+    "revenue_k": 560889,
+    "profit_k": 75650,
+    "eps": 3.82
+   },
+   {
+    "label": "drone_3p_disc_10_to_0_all_regions",
+    "product": "drone",
+    "disc_from_pct": 10,
+    "disc_to_pct": 0,
+    "units_total_to": 210.8,
+    "direct_to": 189.0,
+    "thirdparty_to": 21.8,
+    "revenue_k": 556244,
+    "profit_k": 75086,
+    "eps": 3.79,
+    "image": 84
+   }
+  ]
+ }
+}

@@ -16,16 +16,19 @@ Company E (Evading Taxes LLC), Industry 18, including:
 - Per-region market-size multipliers (regional_cal).
 - P&L with calibrated fixed block.
 
-## Validation (vs live browser experiments, 2026-09-23)
+## Validation (vs live browser experiments, 2026-09-23/24)
 
-| Test | Demand err | Net err |
-|------|-----------|---------|
-| Base | 0.00% | $0.0M |
-| Cam P/Q 4.6 (B1) | +0.51% | — (cost not modeled) |
-| Cam price $253 (B3) | −0.04% | +$0.2M |
-| Cam warranty 90d (B4) | −0.14% | −$1.2M |
-| Drone price $1290 (B5) | −0.03% | −$0.2M |
-| Drone P/Q 4.2 (B6) | −0.27% | — (cost not modeled) |
+| Test | Demand err | Cost check |
+|------|-----------|------------|
+| Base | 0.00% | prod $/unit 155.0/776.0 exact |
+| Cam P/Q 4.6 (B1) | +0.51% | — |
+| Cam price $253 (B3) | −0.04% | net +$0.2M |
+| Cam warranty 90d (B4) | −0.14% | net −$1.2M |
+| Drone price $1290 (B5) | −0.03% | net −$0.2M |
+| Drone P/Q 4.2 (B6) | −0.27% | — |
+| Sensor 11→10mm | — | saves $2.97/unit (live $3.03) |
+| Drone stab enh→adv | — | adds $20.00/unit (live ≈$20) |
+| Y6 annual I.E. score | — | 116 exact vs live CDJ |
 
 Demand is within 0.5% on all 8 points. P&L is within $0.2M for price
 changes. Design cost changes (sensor, stabilization) are NOT modeled;
@@ -88,10 +91,11 @@ marginals from live tests: ~$3.01/unit per 0.1 camera P/Q,
 
 ## Limitations
 
-- Design unit costs (sensor mm, stabilization level, etc.) are not modeled.
-  The unit_cost is fixed; P/Q changes affect demand but not cost. See the
-  P/Q model section for empirical marginal costs from live tests.
+- ~20 server cost constants (repair $/unit, shipping $/unit, duty rates)
+  are estimated from Y6 actuals; live read-only calibration will pin them.
 - Exchange rates for AP/LA revenue are approximated (4.9% high).
 - Competitive assumptions are static; rival reactions not modeled
   (use --scenario for synthetic rival behaviors).
 - Image rating effects are simplified.
+- Stock price is server-side (no published weights); supplied as input.
+- PAT-productivity tables (labor vs #models) were not in the bundle.
