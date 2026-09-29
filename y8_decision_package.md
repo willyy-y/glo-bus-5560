@@ -73,8 +73,8 @@ Aggressive share push (camera −$8, drone −$100, marketing $66.5M) + CSR. Dem
 
 | Package | Revenue | Net profit | EPS | ROE* | Image | Credit | Stock† |
 |---|---|---|---|---|---|---|---|
-| A (rec.) | $604M ($687M) | **$100.9M** ($126.5M) | **$5.09** ($6.39) | ~39% | **88** (90) | A | $140–165 |
-| B (no CSR) | $577M ($660M) | $95.4M ($120.0M) | $4.82 ($6.06) | ~37% | 76 (78) | A | $135–160 |
+| A (rec.) | $604M ($635M) | **$100.9M** ($126.5M) | **$5.09** ($6.39) | ~39% | **88** (90) | A | $140–165 |
+| B (no CSR) | $577M ($608M) | $95.4M ($120.0M) | $4.82 ($6.06) | ~37% | 76 (78) | A | $135–160 |
 | C (image-max) | $687M | $79.3M ($111.4M) | $4.00 | ~31% | 96 | A | $115–140 |
 | Investor target | — | — | $3.00 | 25% | 72 | A− | $60 |
 
@@ -117,7 +117,7 @@ CSR dominates everything. P/Q upgrades are the worst image buy in the game — r
 3. **Production** — raise to **1,560k cameras / 195k drones** (current cap 1,355k cameras would stock out under CSR-lifted demand).
 4. **Design** — no changes (P/Q stays 4.7/4.1).
 5. **Finance (optional +2 I.E. points)** — A+ credit requires lower debt/higher coverage; check the Finance page for cheap debt paydown. Not modeled; do not force it.
-6. **Verify before save** — projected box values should read ≈ $687M revenue / ≈ $126.5M profit / image ≈ 90; if materially different, stop.
+6. **Verify before save** — projected box values should read ≈ $635M revenue / ≈ $126.5M profit / image ≈ 90; if materially different, stop.
 
 ## 7. Risks and caveats
 
